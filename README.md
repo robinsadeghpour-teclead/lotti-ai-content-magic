@@ -26,3 +26,31 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+
+## Stack
+
+If you are not familiar with the different technologies used in this project, please refer to the respective docs.
+
+- [Next.js](https://nextjs.org)
+- [Drizzle](https://orm.drizzle.team)
+- [Tailwind CSS](https://tailwindcss.com)
+- [tRPC](https://trpc.io)
+
+
+# Local Setup
+- create .env file 
+ ```
+DATABASE_URL=''
+OPENAI_ORG_ID=''
+OPENAI_API_KEY=''
+LOOPS_API_KEY=''
+ ```
+
+- run `npm run db:push` to push the schema to the db 
+
+- run with `npm run dev` to run localhost
+
+
+
+
